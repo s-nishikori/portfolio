@@ -1,12 +1,13 @@
-import type { FC } from "react";
+import Hero from "@/components/Hero";
+import About from "@/components/About"
 
-const Home: FC = () => {
-  return (
-    <div className="">
-      <div className="text-lg font-bold">Home</div>
-    </div>
-  );
- };
+function App() {
+    return (
+        <div>
+           <Hero />
+           <About />
+        </div>
+    );
+}
 
- export default Home;
- 
+export default App;

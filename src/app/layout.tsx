@@ -23,8 +23,8 @@ export default function RootLayout({
     <html lang="en"
       suppressHydrationWarning
     >
-      <body className={inter.className}>
-        <ThemeProvider>
+      <body className={inter.className + " bg-background text-foreground"}>
+        <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
             {children}
           <Footer />
