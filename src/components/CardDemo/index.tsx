@@ -24,9 +24,9 @@ export const CardDemo: FC<Props> = (props) => {
               <CardDescription>{props.cardDescription}</CardDescription>
           </CardHeader>
           <CardContent>
-              <Button variant="outline" className="border-solid border-2 border-gray-700">
+              <Button>
                   <a href={props.cardContent} target="_blank">
-                      Usage {props.cardTitle}
+                      詳細を見る
                   </a>
               </Button>
           </CardContent>

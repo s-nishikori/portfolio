@@ -25,23 +25,17 @@ const About = () => {
               </TabsList>
               <div className="text-lg mt-12 xl:mt-8">
                 <TabsContent value="personal">
-                  <div>
-                    私は5年以上の経験を持つWebエンジニアです。フロントエンドとバックエンドの両方に精通しており、ユーザー体験を最優先に考えたウェブアプリケーションの開発を得意としています。
-                  </div>
-                  <div>
-                    私の専門分野には、HTML、CSS、JavaScript、React、Node.jsなどの最新技術が含まれています。また、データベース設計やAPIの構築、クラウドサービスの利用にも対応できます。これまでに様々なプロジェクトに携わり、効率的でスケーラブルなコードを書き、複雑な問題を解決してきました。
-                  </div>
-                  <div>
-                    もし、私のスキルや経験にご興味がありましたら、ぜひお気軽にご連絡ください。共に素晴らしいプロジェクトを作り上げましょう！
-                  </div>
+                  <ul className="list-disc pl-5">
+                    <li className="p-1 leading-6"> 私は5年以上の経験を持つWebエンジニアです。フロントエンドとバックエンドの両方に精通しており、ユーザー体験を最優先に考えたウェブアプリケーションの開発を得意としています。</li>
+                    <li className="p-1 leading-6"> 私の専門分野には、HTML、CSS、JavaScript、React、Node.jsなどの最新技術が含まれています。また、データベース設計やAPIの構築、クラウドサービスの利用にも対応できます。これまでに様々なプロジェクトに携わり、効率的でスケーラブルなコードを書き、複雑な問題を解決してきました。</li>
+                    <li className="p-1 leading-6"> もし、私のスキルや経験にご興味がありましたら、ぜひお気軽にご連絡ください。共に素晴らしいプロジェクトを作り上げましょう！</li>
+                  </ul>
                 </TabsContent>
                 <TabsContent value="qualifications">
-                  <div>
-                    ・Ruby Association Certified Ruby Programmer Gold version 2.1
-                  </div>
-                  <div>
-                    ・AWS Certified Solutions Architect – Associate
-                  </div>
+                  <ul className="list-disc pl-5">
+                   <li className="p-1 leading-6"> Ruby Association Certified Ruby Programmer Gold version 2.1</li>
+                   <li className="p-1 leading-6"> AWS Certified Solutions Architect – Associate</li>
+                  </ul>
                 </TabsContent>
               </div>
             </Tabs>
