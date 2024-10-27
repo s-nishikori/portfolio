@@ -11,6 +11,7 @@ docker compose up -d
 2. 開発サーバーの起動
 
 ```bash
+docker exec -it portfolio-app-1 bash
 npm run dev
 ```
 
