@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
+import { FC } from "react";
 
 const links = [
     { path: '/', name: 'home'},
@@ -10,7 +11,13 @@ const links = [
     { path: '/contact', name: 'contact' },
 ]
 
-const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+interface NavProps {
+    containerStyles: string,
+    linkStyles: string,
+    underlineStyles: string,
+  }
+
+const Nav: FC<NavProps> = ({ containerStyles, linkStyles, underlineStyles }) => {
     const path = usePathname();
     return (<nav className={`${containerStyles}`}>
         {links.map((link, index) => {
