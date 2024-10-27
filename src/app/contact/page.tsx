@@ -48,9 +48,9 @@ const Contact: FC = () => {
   }
 
   return (
-    <div>
+  <div className="min-h-screen">
       <h1 className="h1 text-center p-5">Contact me</h1>
-      <section className="container pt-5">
+      <section className="container pt-5 pb-5">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <FormField
